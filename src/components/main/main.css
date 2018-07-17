@@ -1,0 +1,10 @@
+.main{
+  background: rgb(160,40,40);
+  min-height: 100vh;
+}
+
+#gates-header{
+  margin: 0;
+  line-height: 2;
+  color: #ddd;
+}
