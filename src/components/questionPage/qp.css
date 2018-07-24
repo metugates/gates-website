@@ -1,0 +1,45 @@
+.questionPageContainer {
+    width: 80vw;
+    min-height: 80vh;
+    background: rgb(200,200,200);
+    border: 2px solid rgb(50,50,50);
+    border-radius: 16px;
+    margin: auto;
+    margin-top: 16px;
+    padding: 0px;
+}
+
+.questionHeader {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(50,50,50);
+}
+
+.leftside {
+    text-align: left;
+    float: left;
+    padding-left: 8px;
+}
+
+.rightside {
+    text-align: right;
+    float: right;
+    padding-right: 8px;
+}
+
+.questionDescr {
+    text-align: left;
+    line-height: 1.4em;
+    padding: 12px;
+    margin:4px;
+}
+
+.questionPart {
+    border-bottom: 1px solid rgba(25,25,25,.25);
+}
+
+.answerPart {
+    text-align: left;
+    padding-left: 8px;
+}
