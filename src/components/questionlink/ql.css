@@ -18,13 +18,50 @@ a {
     text-decoration: none;
     color: rgb(50,50,50);
 }
+.leftsidelink{
+  text-align: left;
+  padding-left: 8px;
+  float: left;
+}
+
+.rightsidelink{
+  text-align: right;
+  float: right;
+  padding-right: 8px;
+}
 
 .questionLink {
-    height: 100px;
     width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
     align-items: center;
     border-top: 1px solid rgb(50, 50, 50);
+    justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) {
+  .questionLink {
+    height: 100px;
+    flex-direction: row;
+  }
+
+
+
+}
+@media only screen and (max-width: 767px) {
+  .questionLink {
+    height: 64px;
+  }
+
+  .questionLink h3{
+    margin: 0px;
+  }
+
+  .questionTopic h3 {
+    font-size: 1em;
+    margin: 0px;
+  }
+
+  .questionDesc{
+    display: none;
+  }
 }

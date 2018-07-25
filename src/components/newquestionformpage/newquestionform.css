@@ -1,0 +1,38 @@
+.formframe {
+  width: 80vw;
+  min-height: 80%;
+  background: rgb(200,200,200);
+  border-radius: 16px;
+  border: 2px solid rgb(50,50,50);
+  padding: 12px;
+  margin: auto;
+  margin-top: 12px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.formframe input {
+  background: rgb(50,50,50);
+  padding: 4px;
+  color: rgb(225,225,225);
+  font-family: sans-serif;
+  width: 200px;
+}
+
+.formframe select {
+  background: rgb(50,50,50);
+  padding: 4px;
+  color: rgb(225,225,225);
+  font-family: sans-serif;
+  width: 200px;
+
+}
+
+.descriptionInput textarea{
+  min-width: 40%;
+  min-height: 30vh;
+  background: rgb(50,50,50);
+  padding: 4px;
+  color: rgb(225,225,225);
+  font-family: sans-serif;
+}

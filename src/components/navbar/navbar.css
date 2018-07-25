@@ -4,16 +4,37 @@
   padding: 20px;
   color: #ddd;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   padding-left: 10vw;
   padding-right: 10vw;
+}
+
+.header a{
+  color: #ddd;
 }
 
 .title {
   align-self: flex-start;
   font-size: 1.5em;
   margin: 0px;
+  text-align: left;
 }
 
 .sub{
+    font-size: 0.5em;
+}
+
+.rightMenu{
+  float: right;
+  align-self: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .header{
+    height: 40px
+  }
+  .rightMenu{
     font-size: 0.6em;
+  }
 }

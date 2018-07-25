@@ -1,5 +1,4 @@
 .listframe {
-    width: 80vw;
     min-height: 60vh;
     background: rgb(200,200,200);
     padding: 0px;
@@ -16,4 +15,16 @@
     -webkit-border-radius: 16px 16px 0px 0px;
     border-radius: 16px 16px 0px 0px;
     padding: 3px;
+}
+
+@media only screen and (min-width: 768px) {
+  .listframe {
+      width: 80vw;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .listframe {
+      width: 100vw;
+  }
 }

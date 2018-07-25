@@ -1,25 +1,27 @@
 import React, { Component } from 'react';
 import './qp.css';
+const ReactMarkdown = require('react-markdown');
 
 class QuestionPage extends Component {
 
     state = {
       question: {
-          "id":"",
-          "topic":"",
-          "date":"",
-          "author":"",
-          "description":"",
+        "id":1,
+        "topic":"Rigidbody cannot detect collision",
+        "description":"Hello everyone, I have a problem with the rigidbody component of my player gameobject. I need to detect collisions with it but it can't detect any. besides it passes through every object. help please, i use this function for collision detection: \n\n    void OnCollisionEnter(Collider other) {\n\n        Debug.Log(other.gameobject.name);\n\n    }",
+        "author":"Cengizhan Basak",
+        "date":"25-07-2018",
+        "category":"Unity",
       },
     }
-
-    componentDidMount() {
-      fetch(`https://gates-api.herokuapp.com/questions/${this.props.match.params.id}`,{mode:'cors', method: 'get'})
-        .then(response => response.json())
-        .then(json => {
-          this.setState({question:json})
-        });
-    }
+    //
+    // componentDidMount() {
+    //   fetch(`https://gates-api.herokuapp.com/questions/${this.props.match.params.id}`,{mode:'cors', method: 'get'})
+    //     .then(response => response.json())
+    //     .then(json => {
+    //       this.setState({question:json})
+    //     });
+    // }
 
     render() {
         return (
@@ -35,7 +37,7 @@ class QuestionPage extends Component {
                             <h5> {this.state.question.date} </h5>
                         </div>
                     </div>
-                    <p className="questionDescr"> {this.state.question.description} </p>
+                    <ReactMarkdown className="questionDescr" source={this.state.question.description} />
                 </div>
                 <div className="answerPart">
                     <h3>Answer</h3>
