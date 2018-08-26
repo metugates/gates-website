@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Homepage from '../homepage';
-import QA from '../qa';
+import ShowcasePage from '../showcasepage';
+
 import { Switch, Route } from 'react-router-dom';
 
 class Main extends Component {
@@ -8,7 +9,7 @@ class Main extends Component {
         return (
             <Switch>
                 <Route exact path="/" component={Homepage} />
-                <Route path="/qa" component={QA} />
+                <Route exact path="/urunler" component={ShowcasePage} />
             </Switch>
 
         )

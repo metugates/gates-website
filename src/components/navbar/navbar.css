@@ -21,6 +21,10 @@
   text-align: left;
 }
 
+.title a {
+  text-decoration: none; 
+}
+
 .sub{
     font-size: 0.5em;
 }

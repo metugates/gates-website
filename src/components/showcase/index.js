@@ -22,6 +22,7 @@ class Showcase extends Component {
 
     return (
       <div className="main">
+        <h1>Ürünlerimiz</h1>
         {products.map(function(object, i){ return (<Jumbo productInfo={object} key={i} />)})}
       </div>
     )

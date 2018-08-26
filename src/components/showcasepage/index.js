@@ -1,19 +1,18 @@
 import React, { Component } from 'react';
 import Navbar from '../navbar';
-import Introduction from '../intro';
-import Contact from '../contact';
+import Showcase from '../showcase';
 
-class Homepage extends Component {
+class ShowcasePage extends Component {
+  
     render()
     {
         return (
             <div>
                 <Navbar sub=""/>
-                <Introduction/>
-                <Contact/>
+                <Showcase/>
             </div>
         )
     }
 }
 
-export default Homepage;
+export default ShowcasePage;

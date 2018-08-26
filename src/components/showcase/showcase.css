@@ -2,6 +2,9 @@
   background: rgb(160,40,40);
   min-height: 80vh;
 }
+.main h1 {
+  color: #ddd;
+}
 
 #gates-header{
   margin: 0;

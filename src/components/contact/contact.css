@@ -1,0 +1,31 @@
+.contact{
+  color: #ddd;
+}
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+ul li{
+  display: inline;
+  margin: 4px;
+}
+
+li img {
+  width: 100px;
+}
+
+@media only screen and (max-width: 767px) {
+  .contact {
+    margin: 4px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .contact {
+    width: 60vw;
+    margin: auto;
+    text-align: left;
+  }
+
+}
