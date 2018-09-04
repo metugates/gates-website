@@ -7,13 +7,15 @@ class Introduction extends Component {
   render(){
     return (
       <div className="introduction">
-        <h2> ODTÜ Oyun Geliştirme ve Animasyon Topluluğu</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rutrum metus est, mattis iaculis est luctus non. Phasellus et quam a risus luctus consequat eu vel odio. Suspendisse sit amet rutrum lorem. In id pretium purus. Cras ac quam vulputate, vestibulum elit ut, sollicitudin quam. Nulla iaculis sem felis. Aenean dui dolor, semper id nisl non, condimentum dignissim nisl. Ut neque nisi, blandit vel dolor a, fermentum dictum turpis. Mauris porta libero eu tincidunt pharetra. Phasellus vel felis malesuada, ultricies ex ac, aliquet diam. Maecenas vulputate aliquam dolor, et porttitor ante fringilla dignissim. Aliquam eu condimentum dui. Donec at pellentesque tortor, vitae fringilla tortor.
-        </p>
-        <p>
-          Maecenas fringilla faucibus tristique. Nam eget sapien ac nisl porta viverra eu quis nunc. Nunc ut ligula cursus, facilisis ante vitae, tincidunt tortor. In placerat vestibulum metus ac viverra. Pellentesque vitae felis eu purus venenatis sollicitudin. Sed orci arcu, gravida at volutpat vitae, vestibulum nec dolor. Nulla eros augue, accumsan at urna vel, cursus ultrices orci. Suspendisse congue justo eget interdum ullamcorper. Cras eget risus vitae massa finibus lobortis. Pellentesque hendrerit ante ac sapien tempor, vitae faucibus mi consectetur. Phasellus ac dolor justo. Vivamus vitae feugiat augue. Suspendisse tincidunt purus vel diam congue, in sagittis lacus ornare. Pellentesque in scelerisque arcu. In sit amet leo quis dui dapibus condimentum consectetur sit amet ipsum. Praesent eu tempor tortor.
-        </p>
+        <div className="intro-text">
+            <h2> ODTÜ Oyun Geliştirme ve Animasyon Topluluğu</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rutrum metus est, mattis iaculis est luctus non. Phasellus et quam a risus luctus consequat eu vel odio. Suspendisse sit amet rutrum lorem. In id pretium purus. Cras ac quam vulputate, vestibulum elit ut, sollicitudin quam. Nulla iaculis sem felis. Aenean dui dolor, semper id nisl non, condimentum dignissim nisl. Ut neque nisi, blandit vel dolor a, fermentum dictum turpis. Mauris porta libero eu tincidunt pharetra. Phasellus vel felis malesuada, ultricies ex ac, aliquet diam. Maecenas vulputate aliquam dolor, et porttitor ante fringilla dignissim. Aliquam eu condimentum dui. Donec at pellentesque tortor, vitae fringilla tortor.
+            </p>
+            <p>
+              Maecenas fringilla faucibus tristique. Nam eget sapien ac nisl porta viverra eu quis nunc. Nunc ut ligula cursus, facilisis ante vitae, tincidunt tortor. In placerat vestibulum metus ac viverra. Pellentesque vitae felis eu purus venenatis sollicitudin. Sed orci arcu, gravida at volutpat vitae, vestibulum nec dolor. Nulla eros augue, accumsan at urna vel, cursus ultrices orci. Suspendisse congue justo eget interdum ullamcorper. Cras eget risus vitae massa finibus lobortis. Pellentesque hendrerit ante ac sapien tempor, vitae faucibus mi consectetur. Phasellus ac dolor justo. Vivamus vitae feugiat augue. Suspendisse tincidunt purus vel diam congue, in sagittis lacus ornare. Pellentesque in scelerisque arcu. In sit amet leo quis dui dapibus condimentum consectetur sit amet ipsum. Praesent eu tempor tortor.
+            </p>
+        </div>
         <h2>İlgi Alanlarımız</h2>
         <div className="sections">
           <div className="gatesSection">

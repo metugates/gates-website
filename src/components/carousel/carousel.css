@@ -1,0 +1,53 @@
+.carousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0px;
+    background: #ddd;
+    text-align: left;
+    padding: 0 10vw 0 10vw;
+    background-repeat: no-repeat;
+}
+
+.carousel-title {
+    margin: 16px 0 0 0;
+    font-size: 3em;
+}
+
+.carousel-subtext {
+    font-size: 1.6em;
+    margin: 0;
+}
+
+.carousel-button {
+    padding: 12px;
+    background: #666;
+    color: #ddd;
+    width: 120px;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-top: 16px;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .carousel {
+        height: 80vh;
+        text-align: center;
+    }
+    .carousel-button {
+        margin: 16px auto;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .carousel {
+        height: 60vh;
+        background-image: url("http://www.transparentpng.com/download/minecraft/luF4tJ-minecraft-transparent-background.png");
+        background-position: 95%;
+    }
+}
