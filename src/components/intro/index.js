@@ -20,23 +20,23 @@ class Introduction extends Component {
         <div className="sections">
           <div className="gatesSection">
             <h3>Oyun Programlama</h3>
-            <img src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.cs.cmu.edu%2F~239%2Fimages%2Ftechcafe-games%2Fgame.png&f=1"/>
+            <img src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.cs.cmu.edu%2F~239%2Fimages%2Ftechcafe-games%2Fgame.png&f=1" alt="" />
           </div>
           <div className="gatesSection">
             <h3>Dijital Sanatlar</h3>
-            <img src="http://4.bp.blogspot.com/-ksODNBcW4NI/U2LmLs2ZF5I/AAAAAAAACBU/tC_Zv3-KaFw/s1600/Pen%2BTool.png"/>
+            <img src="http://4.bp.blogspot.com/-ksODNBcW4NI/U2LmLs2ZF5I/AAAAAAAACBU/tC_Zv3-KaFw/s1600/Pen%2BTool.png" alt="" />
           </div>
           <div className="gatesSection">
             <h3>Hikaye Anlatımı</h3>
-            <img src="https://vignette.wikia.nocookie.net/clubpenguin/images/e/e0/Film_Script_clothing_icon_ID_5211.png/revision/latest?cb=20130214161157"/>
+            <img src="https://vignette.wikia.nocookie.net/clubpenguin/images/e/e0/Film_Script_clothing_icon_ID_5211.png/revision/latest?cb=20130214161157" alt="" />
           </div>
           <div className="gatesSection">
             <h3>Müzik ve Ses Efektleri</h3>
-            <img src="https://images.vexels.com/media/users/3/145866/isolated/preview/b4efb6c6682b2a808631bf8fbd96d015-sound-wave-icon-by-vexels.png"/>
+            <img src="https://images.vexels.com/media/users/3/145866/isolated/preview/b4efb6c6682b2a808631bf8fbd96d015-sound-wave-icon-by-vexels.png" alt="" />
           </div>
           <div className="gatesSection">
             <h3>Pazarlama</h3>
-            <img src="https://png.icons8.com/ios/1600/combo-chart.png"/>
+            <img src="https://png.icons8.com/ios/1600/combo-chart.png" alt="" />
           </div>
         </div>
       </div>

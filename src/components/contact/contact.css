@@ -1,12 +1,13 @@
 .contact{
   color: #ddd;
 }
-ul {
+
+.contactLinks {
   list-style-type: none;
   padding: 0px;
 }
 
-ul li{
+.contactLinks li{
   display: inline;
   margin: 4px;
 }

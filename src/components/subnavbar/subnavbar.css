@@ -1,0 +1,38 @@
+.subnavbar {
+    width: 100%;
+    margin: 0px;
+    background: #666;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #ddd;
+}
+
+.subnavbar-buttons {
+    margin: 0px;
+    list-style-type: none;
+    padding: 0px;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .subnavbar-buttons {
+        width: 100%;
+    }
+    .subnavbar-buttons li {
+        display: block;
+        width: 100%;
+        padding: 4px 0px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .subnavbar {
+        padding: 12px 0px;
+    }
+
+    .subnavbar-buttons li {
+        display: inline;
+        padding: 12px 16px;
+    }
+}
