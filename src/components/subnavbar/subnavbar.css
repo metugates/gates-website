@@ -1,11 +1,11 @@
 .subnavbar {
     width: 100%;
     margin: 0px;
-    background: #666;
+    background: hsl(182,15%,30%);
     display: flex;
     text-align: center;
     justify-content: center;
-    color: #ddd;
+    color: #fff;
 }
 
 .subnavbar-buttons {

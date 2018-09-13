@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   min-height: 100vh;
-  background: rgb(160,40,40);
+  background: hsl(182,90%,40%);
 }
 
 .App-intro {

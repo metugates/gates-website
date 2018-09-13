@@ -1,5 +1,5 @@
 .introduction {
-  color: #ddd;
+  color: #222;
   text-align: left;
   margin: auto;
   line-height: 1.5em;
@@ -11,7 +11,7 @@
     margin-top: 4px;
     padding: 4px 16px;
     border-radius: 4px;
-    background: #222;
+    background: #fff;
 }
 
 .sections {

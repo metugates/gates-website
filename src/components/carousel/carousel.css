@@ -5,7 +5,7 @@
     box-sizing: border-box;
     width: 100%;
     margin: 0px;
-    background: #ddd;
+    background: hsl(182,30%,100%);
     text-align: left;
     padding: 0 10vw 0 10vw;
     background-repeat: no-repeat;
@@ -24,7 +24,7 @@
 .carousel-button {
     padding: 12px;
     background: #666;
-    color: #ddd;
+    color: #fff;
     width: 120px;
     text-align: center;
     border-radius: 4px;
