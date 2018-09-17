@@ -4,21 +4,26 @@ import Jumbo from '../jumbo';
 
 
 class Showcase extends Component {
-
+  constructor(props){
+      super(props);
+      let products = [];
+      if(localStorage.getItem('products')!=='undefined' && localStorage.getItem('products')!==null){
+          products = JSON.parse(localStorage.getItem('products'));
+      }
+      this.state={products}
+  }
   componentDidMount() {
-    fetch("https://gates-api.herokuapp.com/products",{mode:'cors', method: 'get'})
+    fetch("http://localhost:3002/products",{mode:'cors', method: 'get'})
       .then(response => response.json())
       .then(json => {
-        localStorage.setItem('products',JSON.stringify(json.products))
+        console.log(json);
+        localStorage.setItem('products',JSON.stringify(json.products));
+        this.setState({products:json});
       });
   }
 
   render() {
-    if(localStorage.getItem('products')===null){
-        localStorage.setItem('products','[]');
-    }
-    const products = JSON.parse(localStorage.getItem('products'));
-
+    let {products} = this.state;
     return (
       <div className="main">
         <h1>Ürünlerimiz</h1>

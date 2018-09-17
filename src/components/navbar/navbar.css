@@ -1,13 +1,14 @@
 .header {
   background-color: hsl(182,100%,30%);
-  height: 30px;
-  padding: 20px;
+  padding: 20px 10vw 20px 10vw;
   color: #fff;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-left: 10vw;
-  padding-right: 10vw;
+  box-sizing: border-box;
+  width: 100vw;
+}
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .header a{
@@ -33,12 +34,12 @@
   float: right;
   align-self: center;
 }
+.rightMenu a{
+    text-decoration: none;
+}
 
 @media only screen and (max-width: 767px) {
   .header{
-    height: 40px
-  }
-  .rightMenu{
-    font-size: 0.6em;
+    padding: 20px 5vw 20px 5vw;
   }
 }

@@ -6,11 +6,12 @@ class Navbar extends Component {
   render() {
     return (
       <header className="header">
-        <h1 className="title"><Link to="/">METU GATES</Link> { (this.props.sub !== "") &&<Link to="/qa"><span className="sub">{this.props.sub}</span></Link> }</h1>
-      <div className="rightMenu">
-        <Link to="/urunler">Ürettiklerimiz</Link>
-      </div>
-
+        <div className="header-content">
+          <h1 className="title"><Link to="/">METU GATES</Link> { (this.props.sub !== "") &&<Link to="/qa"><span className="sub">{this.props.sub}</span></Link> }</h1>
+          <div className="rightMenu">
+            <Link to="/urunler">Ürettiklerimiz</Link>
+          </div>
+        </div>
       </header>
     )
   }

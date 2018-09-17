@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Homepage from '../homepage';
 import ShowcasePage from '../showcasepage';
 
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route } from 'react-router';
 
 class Main extends Component {
     render() {

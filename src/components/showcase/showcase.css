@@ -1,5 +1,5 @@
 .main{
-  background: rgb(160,40,40);
+  background: hsl(182,90%,40%);
   min-height: 80vh;
 }
 .main h1 {

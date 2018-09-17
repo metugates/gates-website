@@ -7,11 +7,11 @@ class SubNavbar extends Component {
         return (
             <div className="subnavbar">
                 <ul className="subnavbar-buttons">
-                    <li>Oyun Programlama</li>
-                    <li>Dijital Sanatlar</li>
-                    <li>Hikaye Anlatımı</li>
-                    <li>Müzik ve Ses Efektleri</li>
-                    <li>Pazarlama</li>
+                    <li><a href="#oyun-programlama">Oyun Programlama</a></li>
+                    <li><a href="#dijital-sanatlar">Dijital Sanatlar</a></li>
+                    <li><a href="#hikaye-anlatimi">Hikaye Anlatımı</a></li>
+                    <li><a href="#muzik-ses-efektleri">Müzik ve Ses Efektleri</a></li>
+                    <li><a href="#pazarlama">Pazarlama</a></li>
                 </ul>
             </div>
         )

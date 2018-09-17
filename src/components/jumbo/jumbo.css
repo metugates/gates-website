@@ -78,7 +78,7 @@
 }
 
 .jumbo:nth-child(even){
-  background: rgb(160,40,40);
+  background: hsl(182,90%,40%);
   color: #ddd;
   text-align: right;
 }
